@@ -22,7 +22,7 @@
 ##  :fire: Sobre o projeto
 
 <p>
-  <b>Proffys</b> é a sua plataforma de estudos online que visa conectar professores e alunos de maneira prática. #HTML #CSS #JS
+  <b>Proffy</b> é a sua plataforma de estudos online que visa conectar professores e alunos de maneira prática. #HTML #CSS #JS
 </p>
 
 ---
