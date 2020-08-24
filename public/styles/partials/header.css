@@ -42,6 +42,19 @@
     color: var(--color-title-in-primary);
 }
 
+.page-header .header-container,
+.page-header .prepare-container {
+    margin-top: 2.4rem;
+}
+
+.page-header .prepare-container {
+    display: flex;
+}
+
+.page-header .prepare-container img {
+    margin-right: 2.4rem;
+}
+
 .page-header .header-content p {
     max-width: 30rem;
     font-size: 1.6rem;
@@ -71,5 +84,28 @@
     }
     .page-header .header-content strong {
         max-width: 350px;
+    }
+
+    .page-header .header-container { 
+        display: flex;
+        justify-content: space-between;
+        margin: .8em 0;
+    }
+
+    #page-give-classes .page-header .header-container {
+        align-items: flex-end;
+    }
+
+    #page-study .page-header .header-container {
+        align-items: flex-start;
+    }
+
+    .page-header .prepare-container {
+        align-items: center;
+    }
+
+    .teacher-item header,
+    .teacher-item footer {
+        padding: 32px;
     }
 }
